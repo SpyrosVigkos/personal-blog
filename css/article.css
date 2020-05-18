@@ -24,6 +24,7 @@ color: gray;
 
 .sidebar{
     grid-area: sb;
+    box-shadow: var(--main-shadow);
 }
 
 @media(min-width:1100px){
@@ -126,6 +127,5 @@ article{
 
 footer{
     grid-area: ft;
-    margin-top: 0;
     text-align: left;
 }
