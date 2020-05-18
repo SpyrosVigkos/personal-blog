@@ -3,6 +3,7 @@
 @import "footer.css";
 @import "root.css";
 @import "typography.css";
+@import "quote.css";
 
 html {
     box-sizing: border-box;
@@ -17,19 +18,11 @@ html {
     margin: 0;
     box-sizing: border-box;
 }
+.main-content{
+    margin-top: 25px; 
+}
 
 
-.quote{
-    margin: 25px;
-    border-radius: 5px;
-    background-color: rgb(194, 194, 194, 0.5);
-    box-shadow: var(--main-shadow);
-    text-align: center;
-}
-q{
-    font-style: italic;
-    padding: 45px;
-}
 
 .blog-title {
     display: flex;
@@ -128,10 +121,7 @@ q{
     transition: 0.5s;
 }
 
-h4{
-    font-size: 25px;
-    text-align: center;
-}
+
 
 .post p{
     font-size: 17px;

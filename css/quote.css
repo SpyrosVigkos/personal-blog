@@ -1,0 +1,13 @@
+@import "root.css";
+@import "typography.css";
+.quote{
+    margin: 25px;
+    border-radius: 5px;
+    background-color: rgb(194, 194, 194, 0.5);
+    box-shadow: var(--main-shadow);
+    text-align: center;
+}
+q{
+    font-style: italic;
+    padding: 45px;
+}

@@ -1,4 +1,8 @@
+@import "root.css";
+@import "typography.css";
+
 /* Navigation bar BEGIN */
+
 
 nav {
     background-color: white;

@@ -1,9 +1,12 @@
 @import "root.css";
 @import "typography.css";
+
 .sidebar {
     background: var(--main-rev-gradient);
+    box-shadow: var(--main-shadow);
     text-align: center;
     justify-content: center;
+    border-radius: 5px;
 }
 
 .sidebar h2 {
