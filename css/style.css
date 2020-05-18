@@ -1,5 +1,9 @@
 @import "navbar.css";
+@import "sidebar.css";
 @import "footer.css";
+@import "root.css";
+@import "typography.css";
+
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -14,33 +18,7 @@ html {
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Noto Sans KR', sans-serif;
-}
 
-:root {
-    --main-black: #000000;
-    --main-dark-blue-color: #191970;
-    --main-blue-color: #0000cd;
-    --main-ocean: #11b8be;
-    --main-tile: #10a8bf;
-    --main-gradient: linear-gradient(180deg, rgba(0, 0, 206, 1) 0%, rgba(17, 184, 190, 1) 100%);
-    --main-rev-gradient: linear-gradient(180deg, rgba(17, 184, 190, 1) 0%, rgba(0, 0, 206, 1) 100%);
-
-    --main-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-}
-
-u{
-    text-decoration: underline;
-}
-h1 {
-    font-size: 48px;
-    margin-bottom: 25px;
-}
-
-p {
-    font-size: 18px;
-}
 .quote{
     margin: 25px;
     border-radius: 5px;
@@ -75,36 +53,6 @@ q{
     font-size: 40px;
 }
 
-.sidebar {
-    background: var(--main-rev-gradient);
-    text-align: center;
-    justify-content: center;
-}
-
-.sidebar h2 {
-    color: white;
-    font-size: 40px;
-    
-}
-
-.sidebar ul li a {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    font-size: 25px;
-    line-height: 3rem;
-    color: white;
-}
-
-.sidebar ul li a:hover {
-    color: var(--main-blue-color);
-}
-
-.banner-full {
-    display: none;
-}
-
 @media (min-width:1100px) {
 
     .blog-title {
@@ -113,26 +61,6 @@ q{
     .main-content {
         display: grid;
         grid-template-columns: 25% 75%;
-    }
-    .sidebar ul{
-        margin-bottom: 5rem;
-    }
-
-
-    .sidebar ul li a {
-        line-height: 5rem;
-        color: white;
-    }
-    .sidebar h2 {
-        height: 24vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
-    } 
-
-    .banner-full {
-        display: inline-block;
     }
     
     h2, h3{
@@ -160,12 +88,6 @@ q{
         "articles"
         "footer"
         ;
-    }
-    .sidebar {
-        display: flex;
-        flex-direction: column;
-        grid-area:cat;
-        height: 30vh;
     }
 
     .articles{
@@ -203,6 +125,7 @@ q{
 .article-post .post:hover {
     background-color: white;
     color: var(--main-tile);
+    transition: 0.5s;
 }
 
 h4{

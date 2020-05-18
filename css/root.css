@@ -1,0 +1,11 @@
+:root {
+    --main-black: #000000;
+    --main-dark-blue-color: #191970;
+    --main-blue-color: #0000cd;
+    --main-ocean: #11b8be;
+    --main-tile: #10a8bf;
+    --main-gradient: linear-gradient(180deg, rgba(0, 0, 206, 1) 0%, rgba(17, 184, 190, 1) 100%);
+    --main-rev-gradient: linear-gradient(180deg, rgba(17, 184, 190, 1) 0%, rgba(0, 0, 206, 1) 100%);
+
+    --main-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}

@@ -1,0 +1,63 @@
+@import "root.css";
+@import "typography.css";
+.sidebar {
+    background: var(--main-rev-gradient);
+    text-align: center;
+    justify-content: center;
+}
+
+.sidebar h2 {
+    color: white;
+    font-size: 40px;
+    
+}
+
+.sidebar ul li a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    line-height: 3rem;
+    color: white;
+}
+
+.sidebar ul li a:hover {
+    color: var(--main-blue-color);
+    font-size: 27px;
+    transition: 0.5s;
+}
+
+.banner-full {
+    display: none;
+}
+
+@media (min-width:1100px) { 
+    .sidebar ul{
+        margin-bottom: 5rem;
+    }
+    .sidebar ul li a {
+        line-height: 5rem;
+        color: white;
+    }
+    .sidebar h2 {
+        height: 24vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    } 
+
+    .banner-full {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1100px) { 
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        grid-area:cat;
+        height: 30vh;
+    }
+}
