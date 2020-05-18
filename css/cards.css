@@ -1,6 +1,7 @@
 @import "root.css";
 @import "typography.css";
 
+
 *{
   text-decoration: none;
 }
@@ -9,9 +10,8 @@
   display: grid;
   justify-content: center;
   align-items: center;
-  grid-template-columns: 100%;
-  grid-gap: 4rem;
-  padding: 4rem;
+  grid-template-columns: auto;
+  grid-gap: 64px;
   margin: 0 auto;
   width: max-content;
 }
@@ -62,7 +62,7 @@
 }
 .post p{
   font-size: 12px;
-  margin-top: 8px;
+  margin: 8px;
   line-height: 13px;
 }
 
@@ -73,21 +73,42 @@
 }
 
 .btn-article{
-  background-color: rgba(255,255,255,0.9);
-  color: var(--main-ocean);
+  background-color: var(--main-ocean);
+  color: white;
+
+  
+
   transition: .5s;
   box-shadow: var(--main-shadow);
   font-size: 17px;
   font-weight: bold;
   border-radius: 5px;
-  border: 1px;
+  border: 1px solid rgba(255,255,255,0.9);
   padding: 7px 13px;
 
 }
 
 .btn-article:hover{
   cursor: pointer;
-  background-color: var(--main-ocean);
-  color: white;
+  background-color: rgba(255,255,255,0.9);
+  color: var(--main-ocean);
+ 
 
+}
+
+@media (min-width: 600px) and (max-width: 1100px) {
+  .recommended-posts {
+    grid-template-columns: auto auto;
+    width: initial;
+  }
+  .last{
+    display: none;
+  }
+}
+
+@media (min-width:1100px) {
+  .recommended-posts {
+    grid-template-columns: auto auto auto;
+    
+  }
 }

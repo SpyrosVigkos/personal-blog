@@ -4,6 +4,7 @@
 @import "root.css";
 @import "typography.css";
 @import "quote.css";
+@import "cards.css";
 
 html {
     box-sizing: border-box;
@@ -41,7 +42,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 24vh;
+    height: 200px;
     text-align: center;
     font-size: 40px;
 }
@@ -94,36 +95,4 @@ html {
     .last {
         display: none;
     }
-}
-
-.recommended-posts {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 4rem;
-    width: 100%;
-    max-width: 1280px;
-    margin: 30px auto 0 auto;
-}
-
-.article-post .post {
-    background-color: var(--main-tile);
-    box-shadow: var(--main-shadow);
-    border-radius: 3px;
-    padding: 15px;
-    color: white;
-    margin: auto 15px;
-    display: inline-block;
-}
-
-.article-post .post:hover {
-    background-color: white;
-    color: var(--main-tile);
-    transition: 0.5s;
-}
-
-
-
-.post p{
-    font-size: 17px;
-    line-height: 35px;
 }
