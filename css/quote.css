@@ -1,5 +1,6 @@
 @import "root.css";
 @import "typography.css";
+
 .quote{
     margin: 25px;
     border-radius: 5px;
@@ -7,6 +8,7 @@
     box-shadow: var(--main-shadow);
     text-align: center;
 }
+
 q{
     font-style: italic;
     padding: 45px;

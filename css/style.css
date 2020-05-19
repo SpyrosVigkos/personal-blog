@@ -64,7 +64,6 @@ html {
         height: 24vh;
         text-align: center;
     }
-
     
 }
 
@@ -87,10 +86,10 @@ html {
     .articles{
         grid-area: articles;
     }
+    
     footer{
         grid-area: footer;
     }
-    
     
     .last {
         display: none;

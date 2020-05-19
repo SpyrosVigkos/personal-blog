@@ -12,16 +12,14 @@
     justify-content: center;
     margin: 10px auto;
 
-
 }
+
 .sharing-btns {
     text-align: center;
     width: 100%;
     margin-top: 16px;
     flex-wrap: wrap;
     font-size: 28px;
-
-    
 }
 
 .sharing-btn { 
@@ -29,7 +27,7 @@
     padding: 8px;
 
 }
-.fa-twitter{
+.fa-twitter-square{
     color: #38A1F3;
 }
 
@@ -53,7 +51,7 @@
     color: #ee802f;
 }
 
-.sharing-btn:hover, .fa-twitter:hover, .fa-rss-square:hover,.fa-linkedin:hover,.fa-facebook-square:hover,.fa-blogger:hover, .fa-tumblr-square:hover{
+.sharing-btn:hover, .fa-twitter-square:hover, .fa-rss-square:hover,.fa-linkedin:hover,.fa-facebook-square:hover,.fa-blogger:hover, .fa-tumblr-square:hover{
     font-size: 2rem;
     color: var(--main-ocean);
     transition: 0.5s;

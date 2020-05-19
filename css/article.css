@@ -1,6 +1,6 @@
 @import "style.css";
-@import "author.css";
 @import "sharing-btns.css";
+@import "author.css";
 
 .cat-name{
 color: gray;
@@ -44,7 +44,6 @@ color: gray;
     "img img"
     "sb ar"
     "ft ft"
-
     ;    
     }
 
@@ -94,7 +93,6 @@ color: gray;
 
 }
 
-
 .article-image{
     grid-area: img;
     text-align: center;
@@ -124,7 +122,6 @@ color: gray;
 h1{
     font-size: 38px;
 }
-
 
 article{
 
