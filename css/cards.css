@@ -75,9 +75,6 @@
 .btn-article{
   background-color: var(--main-ocean);
   color: white;
-
-  
-
   transition: .5s;
   box-shadow: var(--main-shadow);
   font-size: 17px;

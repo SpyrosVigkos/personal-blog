@@ -1,0 +1,78 @@
+@import "root.css";
+@import "typography.css";
+
+
+
+.author-container{
+    margin: 25px auto;
+    max-width: 80%;
+    box-shadow: var(--main-shadow);
+    justify-content: center;
+    border: 10px solid var(--main-tile);
+    border-radius: 20px;
+    padding: 25px;
+}
+
+
+.author-photo{
+    justify-content: center;
+    
+    width: 80px;
+    height: 80px;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    box-shadow: var(--main-shadow);;
+}
+
+.author-photo-and-name-container {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.name-and-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    
+}
+
+.author-name, .author-title{
+    text-align: left;
+    margin: 0;
+}
+
+.follow-btn {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 0 auto;
+}
+
+
+.follow-btn button{
+    cursor: pointer;
+    height: 31px;
+    background-color: var(--main-ocean);
+    color: white;
+    transition: .5s;
+    box-shadow: var(--main-shadow);
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid rgba(255,255,255,0.9);
+    padding: 7px 13px;
+}
+
+.f-btn-non-mobile{
+    display: none;
+}
+
+@media (min-width:600px){
+    .f-btn-non-mobile{
+        display: flex;
+    }
+    .f-btn-mobile{
+        display: none;
+    }
+}
